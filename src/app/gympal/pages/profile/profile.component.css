@@ -1,0 +1,74 @@
+.example-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  flex: 1;
+}
+
+.example-header-image {
+  background-image: url('../../../../assets/img_2.png');
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Update directly the mat-card with purple background */
+.subscription-card.mat-card, .purple-background.mat-card {
+  width: auto;
+  color: darkviolet;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 100px;
+  flex-direction: row;
+  align-items: center;
+  background-color: purple; /* Changed background color */
+}
+
+.subscription-card .column:first-child {
+  margin-right: 80px;
+}
+
+.purple-background {
+  background-color: purple; /* Changed background color */
+}
+
+.purple-background h1,
+.purple-background h2,
+.purple-background p {
+  color: white;
+}
+
+.mat-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mat-card-content p {
+  margin-bottom: 10px;
+}
+
+.subscription-card button {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.margin-last {
+  margin-top: 120px;
+  margin-left: 30px;
+  margin-right: 20px;
+}

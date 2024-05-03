@@ -1,0 +1,50 @@
+.custom-position {
+    display: flex;
+    align-items: center;
+}
+
+.title-page {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.coach-name {
+    width: 600px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+.card-title-group {
+    display: flex;
+    align-items: center;
+    width: 600px;
+}
+
+.coach-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.coach-email {
+    font-size: 14px;
+    color: #666;
+}
+
+.coach-name-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.coach-name-button:hover {
+    text-decoration: underline;
+}

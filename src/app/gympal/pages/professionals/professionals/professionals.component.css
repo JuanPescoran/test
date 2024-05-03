@@ -1,0 +1,27 @@
+.small-image {
+  max-width: 1000px;
+  height: auto;
+  display: block;
+}
+
+.image-button-container {
+  text-align: center;
+}
+
+.image-button-wrapper {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.title-page {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

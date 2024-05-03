@@ -1,0 +1,16 @@
+<h1 class="title-page">List of expert nutritionists</h1>
+
+<mat-card *ngFor="let nutritionist of nutritionists" class="custom-position" (click)="onNutritionistSelected(nutritionist)">
+
+    <mat-card-content>
+        <div class="card-title-group">
+            <div class="image-container">
+                <img src="/assets/iconouser.jpg" alt="{{ nutritionist.name }}" class="coach-image">
+            </div>
+            <div class="coach-info">
+                <a class="coach-name" (click)="onNutritionistSelected(nutritionist)">{{ nutritionist.name }}</a>
+                <div class="coach-email">{{ nutritionist.phrase }}</div>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>

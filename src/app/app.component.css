@@ -1,0 +1,17 @@
+.mat-spacer {
+  flex: 1 1 auto;
+}
+
+.title-page {
+  font-size: 35px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+.toolbar {
+  height: 80px;
+}
+
+.logo-image {
+  height: 50px;
+}

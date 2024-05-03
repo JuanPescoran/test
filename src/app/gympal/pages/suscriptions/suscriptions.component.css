@@ -1,0 +1,130 @@
+.subscription-container {
+  display: flex;
+}
+
+.plan-time{
+  display: inline;
+}
+
+.plan-info {
+  margin-top: 25px;
+  height: 180px;
+}
+
+.subscription-card {
+  width: 300px;
+  padding: 20px;
+}
+
+.subscription-title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.blue-background {
+  background-color: #3949AB; /* Color de fondo azul */
+}
+
+.start-button-blue {
+  color: #283593; /* Color de texto azul para el botón del primer mat-card */
+}
+
+.start-button-purple {
+  color: #1A237E; /* Color de texto púrpura para el botón del tercer mat-card */
+}
+
+.blue-background h1,
+.blue-background h2,
+.blue-background p,
+.blue-background .plan-time {
+  color: white; /* Letras blancas */
+}
+
+.purple-background {
+  background-color: #283593; /* Color de fondo púrpura */
+}
+
+.purple-background h1,
+.purple-background h2,
+.purple-background p,
+.purple-background .plan-time {
+  color: white; /* Letras blancas */
+}
+
+/* Estilos para los botones */
+.subscription-card button {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.line {
+  height: 125px;
+  border-bottom: 2px solid #ccc;
+}
+
+.line2 {
+  height: 125px;
+  border-bottom: 2px solid #283593;
+}
+
+.subscription-price {
+  margin-left: 110px;
+  font-size: 34px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline;
+}
+
+.subscription-price2{
+  margin-left: 65px;
+  font-size: 34px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline;
+}
+
+.subscription-price3{
+  margin-left: 50px;
+  font-size: 34px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline;
+}
+
+.subscription-card {
+  height: 450px;
+  width: 350px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+.subscription-card button {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.margin-first {
+  margin: 120px 30px 70px 120px;
+}
+
+.margin-middle {
+  border: 2px solid #283593;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.margin-last {
+  margin-top: 120px;
+  margin-left: 30px;
+  margin-right: 20px;
+}

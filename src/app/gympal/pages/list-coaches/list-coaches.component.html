@@ -1,0 +1,16 @@
+<h1 class="title-page">List of expert coaches</h1>
+
+<mat-card *ngFor="let coach of coaches" class="custom-position" (click)="onCoachSelected(coach)">
+
+    <mat-card-content>
+        <div class="card-title-group">
+            <div class="image-container">
+                <img src="/assets/iconouser.jpg" alt="{{ coach.name }}" class="coach-image">
+            </div>
+            <div class="coach-info">
+                <a class="coach-name" (click)="onCoachSelected(coach)">{{ coach.name }}</a>
+                <div class="coach-email">{{ coach.phrase }}</div>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>

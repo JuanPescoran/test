@@ -1,0 +1,19 @@
+{
+  "coaches": [
+    {
+      "id": 1,
+      "name": "Mathias Paria",
+      "age": 31
+    },
+    {
+      "id": 2,
+      "name": "Roberto Garcia",
+      "age": 25
+    },
+    {
+      "id": 3,
+      "name": "Andre Fernandez",
+      "age": 29
+    }
+  ]
+}

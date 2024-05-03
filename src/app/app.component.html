@@ -1,0 +1,18 @@
+<div class="toolbar">
+<mat-toolbar class="toolbar">
+  <h1 class="title-page">SoftRoute</h1>
+  <div class="mat-spacer"></div>
+
+  <a mat-button *ngFor="let option of options"
+     [routerLink]="option.path" >{{ option.title }}</a>
+
+</mat-toolbar>
+</div>
+<router-outlet></router-outlet>
+<app-footer-content></app-footer-content>
+
+<style>
+  .toolbar{
+    color: darkviolet;
+  }
+</style>

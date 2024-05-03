@@ -1,0 +1,39 @@
+.home-section {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-content {
+  flex: 1;
+  text-align: left;
+}
+
+.home-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.cta-buttons button {
+  margin: 0 10px;
+}
+
+.home-image {
+  max-width: 50%;
+  height: auto;
+}
